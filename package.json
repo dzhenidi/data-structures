@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r esm -w spec/**/*.spec.js"
+    "test": "mocha -r esm spec/**/*.spec.js -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.8.0",
     "esm": "^3.0.84",
     "mocha": "^5.2.0"
   }
